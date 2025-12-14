@@ -15,10 +15,10 @@ export default function CarouselCards() {
                 <h3 className='text-center mb-4'>top sales this month</h3>
                     <div className="arrow-left"><img src={Prev} alt="" /></div>
                 <div className="card-container w-100 d-flex overflow-hidden justify-content-between align-items-center gap-1">
-                    <div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    <div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -26,10 +26,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -37,10 +37,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -48,10 +48,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -59,10 +59,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -70,10 +70,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -81,10 +81,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -92,10 +92,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -103,10 +103,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -114,10 +114,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -125,10 +125,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -136,10 +136,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>
@@ -147,10 +147,10 @@ export default function CarouselCards() {
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress3} alt="" /></div>
                             </div>
                         </div>
-                    </div><div className="card rounded-4 overflow-hidden mb-3 pic w-25 border border-0 rounded">
+                    </div><div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
                         <div className="row g-0">
-                            <div className="col-md-9 p-1">
-                                <img src={Dress} className="img-fluid t rounded-start" alt="..."/>
+                            <div className="col-md-9 p-1 p-md-0 overflow-hidden  ">
+                                <img src={Dress} className="img-fluid  rounded-start w-100" alt="..."/>
                             </div>
                             <div className="col-md-3 d-flex d-md-block">
                                 <div className="secondary-pics"><img className='w-100 object-fit-cover' src={Dress1} alt="" /></div>

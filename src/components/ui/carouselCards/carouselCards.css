@@ -5,9 +5,19 @@
 
 .secondary-pics{
     width: 90% !important;
-    height: 33% !important;
+    height: 34% !important;
     margin: 3px 3px;
 }
+
+
+@media (max-width: 767px) {
+    .secondary-pics, .secondary-pics img{
+        object-fit: cover !important;
+        height: 100% !important;
+        margin: 3px 3px;
+    }
+}
+
 
 .container{
     position: relative;

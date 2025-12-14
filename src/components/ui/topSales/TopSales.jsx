@@ -11,12 +11,12 @@ export default function TopSales() {
                 </div>
                 <div className="rest-categories w-md-25 ms-1 p-5  ">
                     <div className="rest1 d-flex m-2 ">
-                        <img src={Men} width={50} height={50}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
-                        <img src={Men} width={50} height={50}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
+                        <img src={Men} width={70} height={70}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
+                        <img src={Men} width={70} height={70}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
                     </div>
                     <div className="rest2 d-flex m-2">
-                        <img src={Men} width={50} height={50}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
-                        <img src={Men} width={50} height={50}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
+                        <img src={Men} width={70} height={70}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
+                        <img src={Men} width={70} height={70}  alt="" className='border-end shadow border-1 border-warning rounded-circle m-auto m-md-3 '/>
                     </div>
                 </div>
             </div>
