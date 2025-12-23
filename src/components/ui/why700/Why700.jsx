@@ -7,7 +7,7 @@ import './why700.css'
 export default function Why700() {
     return (
         <> 
-            <h2 className='text-center mt-2 mt-md-4 mb-3'>Why 700</h2>
+            <h2 className='text-center mt-2 mt-md-4 mb-3'>Why <span className='text-warning'>700</span></h2>
             <div className="container why-us mt-2 flex-wrap flex-md-nowrap bg-body-tertiary rounded-4 p-4">
                 <div className="first-section d-flex justify-content-around align-items-center gap-2 overflow-hidden">
                     <div className="top-positive col-12 col-md-7 p-2 mt-3">

@@ -12,7 +12,7 @@ export default function CarouselCards() {
     return (
         <>
             <div className="container mt-3 mt-md-5">
-                <h3 className='text-center mb-4'>top sales this month</h3>
+                <h3 className='text-center mb-4'>top <span className='text-warning'>SALES</span> this month</h3>
                     <div className="arrow-left"><img src={Prev} alt="" /></div>
                 <div className="card-container w-100 d-flex overflow-hidden justify-content-between align-items-center gap-1">
                     <div className="card rounded-4 col-12 col-md-6 col-lg-3 col-xl-2  overflow-hidden mb-3 pic  border border-0 rounded">
