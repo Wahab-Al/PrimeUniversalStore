@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+.Shop-with-us-title {
+    color: rgb(255, 123, 0) !important
+}
+
 .wrapper{
     margin-inline: auto;
     position: relative;

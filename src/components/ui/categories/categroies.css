@@ -1,6 +1,24 @@
-@media (min-width:768px) {
+@media (max-width:768px) {
     .categories img{
         width: 80px !important;
         height: 80px !important;
     }
+}
+
+.categories-title {
+    color: rgb(255, 123, 0) !important
+}
+
+.categories img {
+    border-radius: 50%;
+}
+
+.category-img {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+h6 {
+    margin-top: 5px !important;
+    text-align: center !important;
 }

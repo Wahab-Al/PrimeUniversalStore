@@ -4,8 +4,8 @@ import './topSales.css'
 
 export default function TopSales() {
     return (
-        <>
-            <div className="container bg-body-tertiary top-sales rounded-5 mt-4 mb-4 m-auto d-md-flex justify-content-between align-items-center sale p-3" id='sale'>
+        <> 
+            <div className="container bg-transparent top-sales rounded-5 mt-4 mb-4 m-auto d-md-flex justify-content-between align-items-center sale p-3" id='sale'>
                 <div className="sale border-start border-top border-warning rounded-bottom-5 w-100 w-md-75 p-5 shadow me-1 text-light bg-dark">
                     <h2 className='text-center '>Sales <span className='text-warning'>90%</span></h2>
                 </div>
@@ -23,3 +23,4 @@ export default function TopSales() {
         </>
     )
 }
+// bg-body-tertiary

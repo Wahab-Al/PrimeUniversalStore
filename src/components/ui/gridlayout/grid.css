@@ -11,6 +11,10 @@
     cursor: pointer;
 } */
 
+.title-span {
+    color: rgb(255, 123, 0) !important
+}
+
 .title {
     grid-column: span 3 / span 3;
     transform: scale(.8)

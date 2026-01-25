@@ -5,19 +5,37 @@
 
 .secondary-pics{
     width: 90% !important;
-    height: 34% !important;
-    margin: 3px 3px;
+    height: 35% !important;
+    margin: 4px 4px;
 }
 
 
-@media (max-width: 767px) {
-    .secondary-pics, .secondary-pics img{
+@media (max-width: 768px) {
+    .cardCarousel {
+        height: 500px !important;
+    }
+    .bigImg-container {
+        height: 60% !important;
+    }
+
+    .small-Img-container {
+        height: 40% !important;
+    }
+
+    .secondary-pics {
+        height: 90% !important;
+    }
+
+    .secondary-pics img{
         object-fit: cover !important;
         height: 100% !important;
         margin: 3px 3px;
     }
 }
 
+.Carousel-cards-title {
+    color: rgb(255, 123, 0) !important    
+}
 
 .container{
     position: relative;
@@ -36,16 +54,28 @@
 
 .arrow-left img{
     position: absolute;
-    left: -8px;
+    left: -15px;
     top: 48%;
     z-index: 2;
 }
 
 .arrow-right img{
     position: absolute;
-    right: -8px;
+    right: -15px;
     top: 48%;
     z-index: 2;
+}
+
+@media (max-width: 575px) {
+    .arrow-right img {
+        right: 10px; 
+        top: 40%;   
+    }
+
+    .arrow-left img  {
+        left: 10px;
+        top: 40%;
+    }
 }
 
 .arrow-left:hover, .arrow-right img:hover {
@@ -57,10 +87,9 @@
 }
 .card img{
     transform: scale(1);
-    /* border-right: 1px solid #ddd; */
 }
 
 .card img:hover{
-    transform: scale(1.04);
+    transform: scale(1.5);
     transition: .6s ease-in-out;
 }

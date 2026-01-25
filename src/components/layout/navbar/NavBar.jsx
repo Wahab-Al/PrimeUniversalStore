@@ -1,9 +1,9 @@
-import React from 'react'
 import './navbar.css'
-import userId from '../../../assets/img/userid.svg'
-import cart from '../../../assets/img/shopping-cart.svg'
-import logo from '../../../assets/img/Logo.png'
-import { NavLink } from 'react-bootstrap'
+import LogFashion from '../../../assets/img/LogFashion.png'
+import searchIcon from '../../../assets/img/icon-search.png'
+import cartIcon from '../../../assets/img/icons-cart.png'
+import fingerIcon from '../../../assets/img/icons-finger.png'
+import userIcon from '../../../assets/img/icon-user.png'
 
 
 
@@ -11,12 +11,47 @@ import { NavLink } from 'react-bootstrap'
 export default function NavBar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-transparent rounded rounded-4 mt-3 shadow opacity-75">
-                <div className="container d-flex justify-content-between align-items-center">
-                    <NavLink><img src={userId} width={30} height={30} alt="user-id" className='shadow rounded-circle'/></NavLink>
-                    <NavLink className="navbar-brand" ><div className="logoContainer shadow rounded-circle">
-                        <img loading='lazy' src={logo} width={67} height={67} alt="logo" className='rounded-circle bg-light-subtle text-light' /></div></NavLink>
-                    <NavLink><img className='cart-icon shadow rounded-circle' src={cart} width={30} height={30} alt="cart-icon"/></NavLink>
+            <div className='top-header'>
+                <h6 className='top-header-h6 text-uppercase ms-2 p-1'>upto 30% off on all styles, <a href="" className='text-lowercase text-decoration-none text-dark'>Click Here For<img src={fingerIcon} width={20} height={20} alt=""/> <span className='top-header-link'>More Details</span></a></h6>
+                <div className='top-header-right'>
+                    <a href=""><img src={userIcon} alt="" width={35} height={35} className='userIcon'/></a>
+                    <button className='top-btn-header rounded rounded-4 ms-2'>Cart<img className='CartIconImg' src={cartIcon} alt="CartIcon" width={20} height={20}/></button>
+                </div>
+            </div>
+            <nav className="navbar navbar-expand-lg bg-body-transparent mt-5">
+                <div className="container-fluid">
+                    <a className="navbar-brand mt-1 fs-3" href="#">Fash<span><img className='LogoIconImg rounded' src={LogFashion} alt="LogoIcon" width={35} height={35}/></span>ion</a>
+                    <form className="d-flex mt-1 search-form" role="search">  
+                        <img className='searchIcon p-1 rounded' src={searchIcon} alt="LogoIcon" width={25} height={25}/>
+                        <button className="btn btn-outline-transparent search-btn border border-0 ms-1" type="submit">Search</button>
+                    </form>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse container-fluid mt-3" id="navbarSupportedContent">
+                        <ul className="navbar-nav nav-list bg-transparent rounded ms-auto mb-2 mb-lg-0">
+                            <li className="nav-item mb-1">
+                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li className="nav-item mb-1">
+                                <a className="nav-link " href="#">about</a>
+                            </li>
+                            <li className="nav-item dropdown mb-1">
+                                <a className="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    shopping
+                                </a>
+                                <ul className="dropdown-menu mb-1">
+                                    <li><a className="dropdown-item" href="#">Action</a></li>
+                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    
+                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item mb-1">
+                                <a className="nav-link" aria-disabled="true">Contact</a>
+                            </li>
+                        </ul>                   
+                    </div>
                 </div>
             </nav>
         </>

@@ -13,7 +13,7 @@ export default function Carousel() {
     return (
         <>
             <div className="container">
-                <h2 className='text-center'>SHOP WITH <span className='text-warning'>US</span></h2>
+                <h2 className='text-center'>SHOP WITH <span className='Shop-with-us-title'>US</span></h2>
                 <div className="wrapper">
                     <div className="carousel-card item1"><img className='object-fit-contain mt-1' src={Iphone} alt="" /></div>
                     <div className="carousel-card item2"><img className='object-fit-contain mt-1' src={Laptop} alt="" /></div>
