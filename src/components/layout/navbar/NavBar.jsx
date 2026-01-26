@@ -41,10 +41,10 @@ export default function NavBar() {
                                     shopping
                                 </a>
                                 <ul className="dropdown-menu mb-1">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><a className="dropdown-item" href="#">Tech loby</a></li>
+                                    <li><a className="dropdown-item" href="#">Women & Men</a></li>
                                     
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">Teenager & Baby</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item mb-1">

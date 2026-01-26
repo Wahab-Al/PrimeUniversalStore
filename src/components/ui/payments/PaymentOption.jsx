@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from '../../../assets/img/mubariz-mehdizadeh-t3zrEm88ehc-unsplash.jpg'
 import Apple from '../../../assets/img/payments/apple-pay.svg'
 import MasterCard from '../../../assets/img/payments/mastercard.svg'
 import Google from '../../../assets/img/payments/google-pay.svg'
@@ -7,7 +6,6 @@ import Paypal from '../../../assets/img/payments/paypal.svg'
 import Bitcoin from '../../../assets/img/payments/bitcoin.svg'
 import Visa from '../../../assets/img/payments/visa.svg'
 import Klarna from '../../../assets/img/payments/klarna.svg'
-import AmericanExpress from '../../../assets/img/payments/american_express.svg'
 
 import './paymentOption.css'
 

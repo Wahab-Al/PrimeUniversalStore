@@ -3,33 +3,45 @@
     cursor: pointer;
 }
 
-.secondary-pics{
-    width: 90% !important;
-    height: 35% !important;
-    margin: 4px 4px;
+.bigImg-container {
+    height: 100% !important;
+    overflow: hidden !important;
 }
 
+.bigImg-container img{
+    object-fit: cover!important;
+}
 
-@media (max-width: 768px) {
+.small-Img-container {
+    height: 100% !important;
+    object-fit: cover!important;
+}
+
+.small-Img-container .secondary-pics {
+    min-height: 30% !important;
+}
+
+@media (max-width: 767px) {
     .cardCarousel {
         height: 500px !important;
     }
     .bigImg-container {
-        height: 60% !important;
+        overflow: hidden !important;
+        max-height: 60% !important;
+        margin: 4px;
     }
 
-    .small-Img-container {
-        height: 40% !important;
-    }
 
     .secondary-pics {
-        height: 90% !important;
+        height: 100% !important;
+        width: 165px !important;
     }
+
 
     .secondary-pics img{
         object-fit: cover !important;
-        height: 100% !important;
-        margin: 3px 3px;
+        height: 160px !important;
+        margin: 3px;
     }
 }
 
@@ -90,6 +102,6 @@
 }
 
 .card img:hover{
-    transform: scale(1.5);
-    transition: .6s ease-in-out;
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
 }

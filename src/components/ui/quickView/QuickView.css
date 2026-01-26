@@ -1,0 +1,122 @@
+/* :root */
+
+:root {
+    --main-color: linear-gradient(#212529 0%,
+            #1b1f22 25%,
+            #16191b 50%,
+            #111416 75%,
+            #0c0e0f 100%);
+    --secondery-color: rgba(245, 245, 245, 0.664);
+    --tertiary-color: linear-gradient(to right,
+            rgba(5, 76, 88, 0),
+            rgba(5, 76, 88, 0.1),
+            rgba(5, 76, 88, 0.2),
+            rgba(5, 76, 88, 0.3));
+    --third-color: linear-gradient(to left,
+            rgba(5, 76, 88, 0),
+            rgba(5, 76, 88, 0.1),
+            rgba(5, 76, 88, 0.2),
+            rgba(5, 76, 88, 0.302));
+    --fifth-color: linear-gradient(to top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 1));
+
+    --sexth-color: linear-gradient(to top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 1));
+
+    --s-color: rgba(0, 0, 0, 0.712);
+}
+
+/* ==== :root ==== */
+
+.featured-cousrses-bg {
+    background: linear-gradient(
+  to bottom,
+  #f0f8ff 0%,
+  #e0f7fa 30%,
+  #ff7a9c 65%,
+  #710627 100%
+);
+}
+
+@media (min-width: 769px) {
+    .course-card {
+      width: 24rem !important;
+    }
+}
+
+.course-card {
+    position: relative;
+}
+
+.course-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.course-card:hover::after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--fifth-color);
+    border-radius: 2px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.course-card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.course-card:hover::before {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--sexth-color);
+    border-radius: 2px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-text {
+  font-size: small !important;
+  color: #757575;
+}
+
+.card-title {
+  font-size: medium;
+}
+
+.card-title span {
+  color: rgb(255, 123, 0) !important
+}
+.course-card {
+  max-width: 18rem!important;
+  max-height: 400px !important;
+} 
+
+.card-img-top {
+  transform: translate(1px) !important;
+}
