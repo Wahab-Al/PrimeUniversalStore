@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react'
 import './carouselCards.css'
 import Dress from '../../../assets/img/products-carousel/dress.webp'
-import Dress1 from '../../../assets/img/products-carousel/dress1.avif'
 import Dress2 from '../../../assets/img/products-carousel/dress2.avif'
 import Dress3 from '../../../assets/img/products-carousel/dress3.avif'
 
@@ -9,6 +8,12 @@ import Style1 from '../../../assets/img/products-carousel/style1.jpg'
 import style1_1 from '../../../assets/img/products-carousel/style1_1.jpg'
 import style1_2 from '../../../assets/img/products-carousel/style1_2.avif'
 import style1_4 from '../../../assets/img/products-carousel/style1_4.jpg'
+
+import mstyle from '../../../assets/img/products-carousel/m-style.jpg'
+import mstyle1 from '../../../assets/img/products-carousel/m-style1.jpg'
+import mstyle3 from '../../../assets/img/products-carousel/m-style3.jpg'
+
+
 
 import Prev from '../../../assets/img/products-carousel/arrow-prev.svg'
 import Next from '../../../assets/img/products-carousel/arrow-next.svg'
@@ -84,12 +89,12 @@ export default function CarouselCards() {
                         <div className="card col-12 col-md-6 col-lg-3 col-xl-2 overflow-hidden m-3 pic border border-0">
                             <div className="row g-0 cardCarousel">
                                 <div className="col-md-9 col-12  p-md-0 overflow-hidden bigImg-container">
-                                    <img src={Style1} className="img-fluid  w-100 h-100" alt="..."/>
+                                    <img src={Dress3} className="img-fluid  w-100 h-100" alt="..."/>
                                 </div>
                                 <div className="col-md-3 col-12 d-flex d-md-block overflow-hidden small-Img-container">
-                                    <div className="secondary-pics ms-md-1 mb-md-1 w-100 overflow-hidden"><img className='w-100' src={style1_2} alt="" /></div>
-                                    <div className="secondary-pics ms-md-1 w-100 overflow-hidden"><img className='w-100' src={style1_1} alt="" /></div>
-                                    <div className="secondary-pics ms-md-1 mt-md-1 w-100 overflow-hidden"><img className='w-100' src={style1_4} alt="" /></div>
+                                    <div className="secondary-pics ms-md-1 mb-md-1 w-100 overflow-hidden"><img className='w-100' src={Dress2} alt="" /></div>
+                                    <div className="secondary-pics ms-md-1 w-100 overflow-hidden"><img className='w-100' src={Dress} alt="" /></div>
+                                    <div className="secondary-pics ms-md-1 mt-md-1 w-100 overflow-hidden"><img className='w-100' src={Dress2} alt="" /></div>
                                 </div>
                             </div>
                         </div>
@@ -98,12 +103,12 @@ export default function CarouselCards() {
                         <div className="card col-12 col-md-6 col-lg-3 col-xl-2 overflow-hidden m-3 pic border border-0">
                             <div className="row g-0 cardCarousel">
                                 <div className="col-md-9 col-12  p-md-0 overflow-hidden bigImg-container">
-                                    <img src={Style1} className="img-fluid  w-100 h-100" alt="..."/>
+                                    <img src={mstyle} className="img-fluid  w-100 h-100" alt="..."/>
                                 </div>
                                 <div className="col-md-3 col-12 d-flex d-md-block overflow-hidden small-Img-container">
-                                    <div className="secondary-pics ms-md-1 mb-md-1 w-100 overflow-hidden"><img className='w-100' src={style1_2} alt="" /></div>
-                                    <div className="secondary-pics ms-md-1 w-100 overflow-hidden"><img className='w-100' src={style1_1} alt="" /></div>
-                                    <div className="secondary-pics ms-md-1 mt-md-1 w-100 overflow-hidden"><img className='w-100' src={style1_4} alt="" /></div>
+                                    <div className="secondary-pics ms-md-1 mb-md-1 w-100 overflow-hidden"><img className='w-100' src={mstyle1} alt="" /></div>
+                                    <div className="secondary-pics ms-md-1 w-100 overflow-hidden"><img className='w-100' src={mstyle3} alt="" /></div>
+                                    <div className="secondary-pics ms-md-1 mt-md-1 w-100 overflow-hidden"><img className='w-100' src={mstyle1} alt="" /></div>
                                 </div>
                             </div>
                         </div>

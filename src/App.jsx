@@ -14,6 +14,8 @@ import Promo from './components/ui/promo/Promo'
 import Customer from './components/ui/customer/Customer'
 import Sub from './components/ui/subscription/Sub'
 import QuickView from './components/ui/quickView/QuickView'
+import Register from './pages/register/register'
+import Login from './pages/login/login'
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
       <WhyFashion />
       <Sub />
       <Footer />
+
     </>
   )
 }
